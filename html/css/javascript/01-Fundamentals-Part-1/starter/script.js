@@ -38,7 +38,7 @@ const ageJonas = now - 1991;
 const ageSarah = now - 2018;
 
 console.log(now - 1991 > now - 2018);
-*/
+
 
 let x,y;
 x = y = 25 - 10 - 5;
@@ -53,6 +53,28 @@ const jonas = "I'm" + fristname + ', a ' + (year - birthYear) + "year old " + jo
 const jonass =   `I m  ${fristname} , a ${year - birthYear} , year old  ${job} !`;
 console.log(jonas)
 console.log(jonass)
+
+
+
+const now =  2037;
+const ageJonas = now - 1991;
+const ageSarah = now - 2018;
+
+console.log(now - 1991 > now - 2018);
+*/
+
+const age = 19;
+const isOldEnough  = age >= 18;
+
+if(isOldEnough) {
+console.log(` sarah can start driving license `)
+}
+else{
+ console.log(`hdhhd`)   
+}
+
+
+
 
 
 

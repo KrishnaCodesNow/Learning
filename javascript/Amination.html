@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<style>
+    div#mydiv {
+        width: 150px;
+        height: 150px;
+        background-color: black;
+        animation-name: krishna;
+        animation-duration: 4s;
+    }
+    
+        @keyframes krishna {
+            from {background-color: black;}
+            to {background-color: blue;}
+        }
+
+ div#mydivs {
+        width: 150px;
+        height: 150px;
+        background-color: black;
+        animation-name: ram;
+        animation-duration: 1s;
+        position: relative;
+        animation-iteration-count: 5;
+    }
+    
+        @keyframes ram {
+            0%{ background-color: rgb(1, 1, 1) ; left: 0px ;top: 0px;}
+            25%{ background-color: rgb(1, 1, 1); left: 200px; top: 0px;}
+            50%{ background-color: rgb(72, 240, 0);left: 200px; top: 200px}
+            75%{ background-color: rgb(21, 133, 130);left: 0px ;top: 200px;}
+            100%{ background-color: rgb(0, 0, 240); ; left: 0px; top: 0px;}
+        }
+</style>
+<body>
+    <div id="mydiv"></div>
+    <br>
+     <div id="mydivs"></div>
+</body>
+</html>

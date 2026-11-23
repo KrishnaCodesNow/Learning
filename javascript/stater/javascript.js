@@ -13,7 +13,7 @@ console.log(fristName);
 let person =  "jonas"
 
 console.log(person);
-*/
+
 
 
 let a = 12;
@@ -27,3 +27,19 @@ console.log(typeof b);
 console.log(typeof c);
 console.log(typeof d);
 console.log(typeof e);
+
+console.log(Number.MAX_SAFE_INTEGER);
+
+
+*/
+
+
+ //arihematic operator
+
+
+ //adition (+)
+ let a = 10;
+ let b = 5;
+
+ console.log(a+b);
+ 

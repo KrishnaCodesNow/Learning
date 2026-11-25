@@ -49,3 +49,6 @@ console.log(Number.MAX_SAFE_INTEGER);
  let name = "krishna";
  let age = 20;
  console.log( `My name is ${name} and i am ${age} year old`);
+
+
+ we

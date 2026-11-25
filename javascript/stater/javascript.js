@@ -47,5 +47,16 @@ console.log(Number.MAX_SAFE_INTEGER);
 
  //templates literals 
  let name = "krishna";
+ let ag = 20;
+ console.log( `My name is ${name} and i am ${ag} year old`);
+
+
+
+
  let age = 20;
- console.log( `My name is ${name} and i am ${age} year old`);
+
+ if (age >= 18){
+    console.log("you can vote");
+ }
+
+ 

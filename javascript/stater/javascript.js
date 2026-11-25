@@ -31,7 +31,7 @@ console.log(typeof e);
 console.log(Number.MAX_SAFE_INTEGER);
 
 
-*/
+
 
 
  //arihematic operator
@@ -59,4 +59,4 @@ console.log(Number.MAX_SAFE_INTEGER);
     console.log("you can vote");
  }
 
- 
+ */

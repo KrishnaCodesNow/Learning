@@ -50,5 +50,10 @@ console.log(Number.MAX_SAFE_INTEGER);
  let age = 20;
  console.log( `My name is ${name} and i am ${age} year old`);
 
+let year = "2026"
+console.log(typeof year);  //string
 
- we
+let convertedyear = Number(year);
+
+console.log(typeof convertedyear); // number 
+console.log(convertedyear);
